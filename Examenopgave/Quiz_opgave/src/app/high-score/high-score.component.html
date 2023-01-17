@@ -1,0 +1,32 @@
+<div *ngIf="success" class="succcess">
+    <!-- Bericht dat het bewaren gelukt is -->
+    {{success}}
+</div>
+
+<div *ngIf="error" class="error"> 
+    <!-- Bericht dat het bewaren mislukt is -->
+    {{error}}
+</div>
+
+<h1>Your score is {{points}} points</h1>
+<div *ngIf="!bewaard">
+    <hr>
+    Please enter your full name:
+    <br>
+    First Name: <input #fn />
+    <br>
+    Last Name: <input #ln />
+    <br>
+    <button (click)="saveScore(fn.value, ln.value)">Save Score</button>
+    <hr>    
+</div>
+<table *ngIf="bewaard">
+    <tr *ngFor="let highscore of highscores, let i = index">
+        <td># {{i+1}}</td>
+        <td>{{highscore.name | uppercase}}</td>
+        <td>{{highscore.score}}</td>
+        <td>{{highscore.date | date: "dd-M-yyyy"}}</td>
+    </tr>
+</table>
+
+<button  [routerLink]="['']">Play again</button>

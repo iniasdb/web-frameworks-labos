@@ -1,0 +1,21 @@
+.searchbar {
+    background-color: darkgray;
+    margin: 0 auto;
+}
+
+.searchbar input {
+    width: 50%;
+}
+
+.results {
+    background-color: lightblue;
+    width: 50%;
+}
+
+.results .result {
+    cursor: pointer;
+}
+
+.results .result:hover {
+    background-color: lightgray;
+}

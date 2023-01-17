@@ -1,0 +1,10 @@
+<input [(ngModel)]="p.fname" pInputText type="text" placeholder="voornaam"><input [(ngModel)]="p.lname" pInputText type="text" placeholder="achternaam">
+<input [(ngModel)]="p.street" pInputText type="text" placeholder="straatnaam"><input [(ngModel)]="p.number" pInputText type="text" placeholder="huisnummer">
+<input [(ngModel)]="p.city" pInputText type="text" placeholder="gemeente">
+<button (click)="save()">Opslagen</button>
+
+<div *ngIf="saved">
+    <p>{{p.lname}} {{p.fname}}</p>
+    <p>{{p.street}} {{p.number}}</p>
+    <p>{{p.city}}</p>
+</div>

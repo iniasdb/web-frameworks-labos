@@ -1,0 +1,11 @@
+<button (click)="increment()">++</button>
+<input type="text" [value]="counter">
+<br>
+<input #in1 type="number" [value]="value" (change)="setCounter(in1.valueAsNumber)"/>
+<button (click)="setCounter(in1.valueAsNumber)" [textContent]="value"></button><br> 
+<select [(ngModel)]="value">
+    <option value="0">A</option>
+    <option value="1">B</option>
+    <option value="2">C</option>
+    <option value="3">D</option>
+</select>

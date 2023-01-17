@@ -1,0 +1,838 @@
+{
+  "high-scores": [
+    {
+      "name": "Andie Similon",
+      "score": 10,
+      "date": "2022-12-21T10:21:52.261Z",
+      "id": 1
+    },
+    {
+      "name": "Sven Mariën",
+      "score": 10,
+      "date": "2022-12-23T09:24:06.272Z",
+      "id": 2
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372226985",
+      "id": 3
+    },
+    {
+      "name": "Andie Similon",
+      "score": 3,
+      "date": "2022-12-21T10:21:52.261Z",
+      "id": 4
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372255223",
+      "id": 5
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372285139",
+      "id": 6
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372298768",
+      "id": 7
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372552958",
+      "id": 8
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372593980",
+      "id": 9
+    },
+    {
+      "name": "Andie Silon",
+      "score": 10,
+      "date": "2022-12-21T10:21:52.261Z",
+      "id": 10
+    },
+    {
+      "name": "jef jef",
+      "score": 0,
+      "date": "1673372616156",
+      "id": 11
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372675637",
+      "id": 12
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372786761",
+      "id": 13
+    },
+    {
+      "name": "jos jos",
+      "score": 0,
+      "date": "1673372828260",
+      "id": 14
+    },
+    {
+      "name": "jef jef",
+      "score": 3,
+      "date": "1673373419951",
+      "id": 15
+    }
+  ],
+  "questions": [
+    {
+      "category": "Entertainment: Board Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Carcassonne is based on which French town?",
+      "correct_answer": "Carcassonne",
+      "options": [
+        "Clermont-Ferrand",
+        "Paris",
+        "Marseille",
+        "Carcassonne"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "The retail disc of Tony Hawk's Pro Skater 5 only comes with the tutorial.",
+      "correct_answer": "True",
+      "options": [
+        "False",
+        "True"
+      ]
+    },
+    {
+      "category": "Science: Mathematics",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the approximate value of mathematical constant e?",
+      "correct_answer": "2.72",
+      "options": [
+        "1.41",
+        "1.62",
+        "3.14",
+        "2.72"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "According to their 1974 hit, what were Brownsville Station doing 'In The Boys' Room'?",
+      "correct_answer": "Smokin'",
+      "options": [
+        "Peein'",
+        "Smokin'",
+        "Lovin'",
+        "Hangin'"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "Coca-Cola's original colour was green.",
+      "correct_answer": "False",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The Internet Meme 'All your base are belong to us' is based on the poorly translated English Version of which Video Game?",
+      "correct_answer": "Zero Wing",
+      "options": [
+        "F-Zero",
+        "Wing Commander",
+        "Zero Wing",
+        "Star Wars: X-Wing"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the capital of South Vietnam before the Vietnam War?",
+      "correct_answer": "Saigon",
+      "options": [
+        "Ho Chi Minh City",
+        "Hanoi",
+        "Hue",
+        "Saigon"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "How many studio albums have the duo Daft Punk released?",
+      "correct_answer": "4",
+      "options": [
+        "5",
+        "1",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the world's first video game console?",
+      "correct_answer": "Magnavox Odyssey",
+      "options": [
+        "Atari 2600",
+        "Coleco Telstar",
+        "Magnavox Odyssey",
+        "Nintendo Color TV Game"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which member of the English band 'The xx' released their solo album 'In Colour' in 2015?",
+      "correct_answer": "Jamie xx",
+      "options": [
+        "Romy Madley Croft",
+        "Oliver Sim",
+        "Baria Qureshi",
+        "Jamie xx"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+      "correct_answer": "Germany",
+      "options": [
+        "Germany",
+        "Britain",
+        "Belgium",
+        "France"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these songs by Skrillex features Fatman Scoop as a side artist?",
+      "correct_answer": "Recess",
+      "options": [
+        "All is Fair in Love and Brostep",
+        "Rock N Roll (Will Take You to the Mountain)",
+        "Scary Monsters and Nice Sprites",
+        "Recess"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "The original Roman alphabet lacked the following letters EXCEPT:",
+      "correct_answer": "X",
+      "options": [
+        "J",
+        "W",
+        "X",
+        "U"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the code name for the mobile operating system Android 7.0?",
+      "correct_answer": "Nougat",
+      "options": [
+        "Ice Cream Sandwich",
+        "Jelly Bean",
+        "Marshmallow",
+        "Nougat"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Red Vines is a brand of what type of candy?",
+      "correct_answer": "Licorice",
+      "options": [
+        "Chocolate",
+        "Lollipop",
+        "Licorice",
+        "Bubblegum"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What's the most common time signature for rock songs?",
+      "correct_answer": "4/4",
+      "options": [
+        "8/12",
+        "2/4",
+        "4/4",
+        "1/2"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the 1994 movie 'Speed', what is the minimum speed the bus must go to prevent to bomb from exploding?",
+      "correct_answer": "50 mph",
+      "options": [
+        "40 mph",
+        "50 mph",
+        "70 mph",
+        "60 mph"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who created the 2011 Video Game 'Minecraft'?",
+      "correct_answer": "Markus Persson",
+      "options": [
+        "Jens Bergensten",
+        "Daniel Rosenfeld",
+        "Carl Manneh",
+        "Markus Persson"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which company made the Japanese RPG 'Dragon Quest'?",
+      "correct_answer": "Square Enix",
+      "options": [
+        "Capcom",
+        "Konami",
+        "Square Enix",
+        "Blizzard"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "How many sonatas did Ludwig van Beethoven write?",
+      "correct_answer": "32",
+      "options": [
+        "50",
+        "31",
+        "21",
+        "32"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Ewan McGregor did not know the name of the second prequel film of Star Wars during and after filming.",
+      "correct_answer": "True",
+      "options": [
+        "False",
+        "True"
+      ]
+    },
+    {
+      "category": "Science & Nature",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "After which Danish city is the 72th element on the periodic table named?",
+      "correct_answer": "Copenhagen",
+      "options": [
+        "Copenhagen",
+        "Skagen",
+        "Herning",
+        "Odense"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In 'Fallout 4' which faction is not present in the game?",
+      "correct_answer": "The Enclave",
+      "options": [
+        "The Institute",
+        "The Enclave",
+        "The Brotherhood of Steel",
+        "The Minutemen"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What year was the game Dishonored released?",
+      "correct_answer": "2012",
+      "options": [
+        "2011",
+        "2008",
+        "2013",
+        "2012"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the 'Toaru Majutsu no Index' anime, Touma Kamijou is a level 0 esper that has the ability to do what?",
+      "correct_answer": "Dispell any esper or magical powers",
+      "options": [
+        "Dispell any esper or magical powers",
+        "Teleport",
+        "Make telepathic communications",
+        "Create electricity from his own body"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which Game Development company made No Man's Sky?",
+      "correct_answer": "Hello Games",
+      "options": [
+        "Blizzard Entertainment",
+        "Valve",
+        "Hello Games",
+        "Dovetail Games"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following was NOT a playable character in the game Kingdom Hearts: Birth by Sleep?",
+      "correct_answer": "Ignis",
+      "options": [
+        "Terra",
+        "Ventus",
+        "Ignis",
+        "Aqua"
+      ]
+    },
+    {
+      "category": "Science: Gadgets",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who patented a steam engine that produced continuous rotary motion?",
+      "correct_answer": "James Watt",
+      "options": [
+        "Nikola Tesla",
+        "Albert Einstein",
+        "Alessandro Volta",
+        "James Watt"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which one of these Swedish companies was founded in 1943?",
+      "correct_answer": "IKEA",
+      "options": [
+        "IKEA",
+        "Clas Ohlson",
+        "Lindex",
+        "H & M"
+      ]
+    },
+    {
+      "category": "Mythology",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In most traditions, who was the wife of Zeus?",
+      "correct_answer": "Hera",
+      "options": [
+        "Hestia",
+        "Aphrodite",
+        "Athena",
+        "Hera"
+      ]
+    },
+    {
+      "category": "Politics",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "One of Barack Obama's United States presidential campaign slogan's was 'Yes We Can'.",
+      "correct_answer": "True",
+      "options": [
+        "False",
+        "True"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In which movie does Robin Williams' character have to disguise themselves into a woman?",
+      "correct_answer": "Mrs. Doubtfire",
+      "options": [
+        "Jumanji",
+        "Mrs. Doubtfire",
+        "Awakenings",
+        "Old Dogs"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What are the cylinder-like parts that pump up and down within the engine?",
+      "correct_answer": "Pistons",
+      "options": [
+        "Leaf Springs",
+        "Radiators",
+        "ABS",
+        "Pistons"
+      ]
+    },
+    {
+      "category": "Politics",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Before 2016, in which other year did Donald Trump run for President?",
+      "correct_answer": "2000",
+      "options": [
+        "2000",
+        "2008",
+        "1988",
+        "2012"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "In the 'To Love-Ru' series, Golden Darkness is sent to kill Lala Deviluke.",
+      "correct_answer": "False",
+      "options": [
+        "True",
+        "False"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "When was the People's Republic of China founded?",
+      "correct_answer": "October 1, 1949",
+      "options": [
+        "May 7, 1945",
+        "April 3, 1947",
+        "October 1, 1949",
+        "December 6, 1950"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What vulnerability ranked #1 on the OWASP Top 10 in 2013?",
+      "correct_answer": "Injection ",
+      "options": [
+        "Injection ",
+        "Insecure Direct Object References",
+        "Broken Authentication",
+        "Cross-Site Scripting"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Where did the pineapple plant originate?",
+      "correct_answer": "South America",
+      "options": [
+        "Hawaii",
+        "Asia",
+        "Europe",
+        "South America"
+      ]
+    },
+    {
+      "category": "Entertainment: Film",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In which film does Humphrey Bogart say the famous line, 'Here's looking at you, kid'?",
+      "correct_answer": "Casablanca",
+      "options": [
+        "The Treasure of the Sierra Madre",
+        "Casablanca",
+        "Citizen Kane",
+        "The Maltese Falcon"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "boolean",
+      "difficulty": "medium",
+      "question": "A Facebook campaign placed Rage Against The Machine's 'Killing in the Name Of' as the UK Christmas Number 1 in 2009.",
+      "correct_answer": "True",
+      "options": [
+        "False",
+        "True"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which song made by MAN WITH A MISSION was used as the opening for the anime 'Log Horizon'?",
+      "correct_answer": "'Database'",
+      "options": [
+        "'Database'",
+        "'Out of Control'",
+        "'Raise Your Flag'",
+        "'Dead End in Tokyo'"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In Touhou 12: Undefined Fantastic Object, which of these was not a playable character?",
+      "correct_answer": "Izayoi Sakuya",
+      "options": [
+        "Izayoi Sakuya",
+        "Kochiya Sanae",
+        "Kirisame Marisa",
+        "Hakurei Reimu"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What country was the Trabant 601 manufactured in?",
+      "correct_answer": "East Germany",
+      "options": [
+        "Hungary",
+        "East Germany",
+        "Soviet Union",
+        "France"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Directly between the Washington Monument and the Reflecting Pool is a memorial to which war?",
+      "correct_answer": "World War II",
+      "options": [
+        "Vietnam War",
+        "American Civil War",
+        "World War II",
+        "American Revolutionary War"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the author of Jurrasic Park?",
+      "correct_answer": "Michael Crichton",
+      "options": [
+        "Irvine Welsh",
+        "Michael Crichton",
+        "Peter Benchley",
+        "Chuck Paluhniuk"
+      ]
+    },
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What does the 'S' in the RSA encryption algorithm stand for?",
+      "correct_answer": "Shamir",
+      "options": [
+        "Shamir",
+        "Stable",
+        "Secure",
+        "Schottky"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these theoretical phycisists first predicted the existence of antimatter?",
+      "correct_answer": "Paul Dirac",
+      "options": [
+        "Paul Dirac",
+        "Niels Bohr",
+        "Albert Einstein",
+        "Werner Heisenberg"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the main protagonist in the game Life is Strange: Before The Storm?",
+      "correct_answer": "Chloe Price ",
+      "options": [
+        "Frank Bowers",
+        "Rachel Amber",
+        "Max Caulfield",
+        "Chloe Price "
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "The Proclaimers - I'm Gonna Be (500 Miles) reached what position on the US Hot 100 Charts in 1993?",
+      "correct_answer": "3rd",
+      "options": [
+        "5th",
+        "3rd",
+        "8th",
+        "1st"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who was the first American in space?",
+      "correct_answer": "Alan Shephard",
+      "options": [
+        "Neil Armstrong",
+        "John Glenn",
+        "Alan Shephard",
+        "Jim Lovell"
+      ]
+    },
+    {
+      "category": "Entertainment: Japanese Anime & Manga",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In 'Hunter x Hunter', which of the following is NOT a type of Nen aura?",
+      "correct_answer": "Restoration",
+      "options": [
+        "Restoration",
+        "Emission",
+        "Transmutation",
+        "Specialization"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "In 'Starbound', according to the asset files, the description of the 'Erchius Ghost' is the same as which other assets?",
+      "correct_answer": "Spookit",
+      "options": [
+        "Petricub",
+        "Trictus",
+        "Spookit",
+        "Pyromantle"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "The Andaman and Nicobar Islands in South East Asia are controlled by which country?",
+      "correct_answer": "India",
+      "options": [
+        "Vietnam",
+        "Thailand",
+        "Indonesia",
+        "India"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of these characters wasn't a villian in Club Penguin?",
+      "correct_answer": "The Director",
+      "options": [
+        "Herbert P. Bear",
+        "Tusk",
+        "The Director",
+        "Ultimate Proto-Bot 10000"
+      ]
+    },
+    {
+      "category": "Celebrities",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which school in Surrey, England did Steve Backshall attend?",
+      "correct_answer": "Collingwood College",
+      "options": [
+        "Tomlinscote School",
+        "Kings International College",
+        "Lyndhurst School",
+        "Collingwood College"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Bjork's 'Unison' contains a sample of which Oval song?",
+      "correct_answer": "Aero Deck",
+      "options": [
+        "Textuell",
+        "Aero Deck",
+        "Panorama",
+        "Do While"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "What is the most common climbing route for the second highest mountain in the world, K2?",
+      "correct_answer": "Abruzzi Spur",
+      "options": [
+        "Magic Line",
+        "Cesen Route",
+        "Polish Line",
+        "Abruzzi Spur"
+      ]
+    },
+    {
+      "category": "Entertainment: Board Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Some of the 'Fallen Empires' cards from 'Magic: The Gathering' were misprinted on the backs of which other card game?",
+      "correct_answer": "Wyvern",
+      "options": [
+        "Pokemon",
+        "Dominion",
+        "Yu-Gi-Oh",
+        "Wyvern"
+      ]
+    }
+  ]
+}

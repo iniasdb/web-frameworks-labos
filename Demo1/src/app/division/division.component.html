@@ -1,0 +1,9 @@
+<table>
+    <tr *ngFor="let number of numbers; let i = index;">
+        <ng-container *ngIf="number%2==0">
+            <td>{{i}}</td>
+            <td *ngIf="number<=9">{{number}}</td>
+            <td *ngIf="number>9"><b>{{number}}</b></td>
+        </ng-container>
+    </tr>
+</table>

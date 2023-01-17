@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="box" *ngFor="let pokemon of pokeList">
+        <div class="columns">
+            <div class="column">
+                <a href="#/pokemon/{{pokemon.id}}">{{pokemon.name}}</a>
+            </div>
+            <div class="column">
+                <span class="icon">
+                    <p *ngIf="pokemon.favorite" class="star colored" (click)="favorite(false, pokemon.id)">★</p>
+                    <p *ngIf="!pokemon.favorite" class="star" (click)="favorite(true, pokemon.id)">★</p>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

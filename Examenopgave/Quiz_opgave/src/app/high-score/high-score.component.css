@@ -1,0 +1,30 @@
+.succcess {
+    padding: 10px;
+    color: green;
+    background-color: lightgreen;
+    border: 2px solid green;
+}
+
+.error {
+    padding: 10px;
+    color: red;
+    background-color: pink;
+    border: 2px solid red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #ddd;
+    font-weight: bold;
+}

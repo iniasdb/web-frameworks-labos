@@ -1,0 +1,10 @@
+<video #vid [width]="activeRes.width" [height]="activeRes.height" controls autoplay muted (playing)="playPause(true)" (pause)="playPause(false)">
+
+    <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video> 
+<select #sel1 (change)="SelRes(sel1.value)">
+    <option *ngFor="let res of resolutions; let i = index" [value]="i">{{res.width}}x{{res.height}}</option>
+</select>
+<button (click)="vid.play()" [disabled]="playing">Play</button>
+<button (click)="vid.pause()" [disabled]="vid.paused">Pause</button>

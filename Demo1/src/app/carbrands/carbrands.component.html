@@ -1,0 +1,6 @@
+<ul *ngFor="let brand of carbrands">
+    <li>{{brand.name}}</li>
+    <ul *ngIf="brand.models.length > 0">
+        <li *ngFor="let model of brand.models">{{model}}</li>
+    </ul>
+</ul>

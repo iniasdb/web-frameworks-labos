@@ -1,0 +1,12 @@
+<table>
+    <tr *ngFor="let temp of temps; let i = index;">
+        <td>{{places[i]}}</td>
+        <td>{{temp}}</td>
+        <td>
+            <p *ngIf="temp == 0">Kans op gladheid</p>
+            <p *ngIf="temp >= 1 && temp <= 3">Kans op sneeuw</p>
+            <p *ngIf="temp > 17">Zacht weertje</p>
+        </td>
+        <td *ngIf="temp % 5 > 0"><img src="https://openweathermap.org/img/w/{{temp%5 | number:'2.0'}}d.png" alt=""></td>
+    </tr>
+</table>

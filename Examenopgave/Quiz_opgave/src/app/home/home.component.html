@@ -1,0 +1,12 @@
+<h1>Welcome to the quiz</h1>
+
+<div *ngIf="name">
+    You have played before {{name}}. Thank you for coming back!
+    <br/>
+</div>
+
+Select difficulty:
+<br/>
+<button [routerLink]="['/quiz/easy']">Easy</button>
+<button [routerLink]="['/quiz/medium']">Medium</button>
+<button [routerLink]="['/quiz/hard']">Hard</button>

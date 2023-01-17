@@ -1,0 +1,11 @@
+<div class="searchbar">
+    <input #in type="text" [(ngModel)]="gemeenteInput" (keypress)="checkGemeente()">
+    <div class="results" *ngIf="resultList && !gemeenteChosen">
+        <div class="result" *ngFor="let result of resultList" (click)="kiesGemeente(result)">{{result.omschrijving}}</div>
+    </div>    
+</div>
+
+<select #sel1 (change)="kiesHalte(sel1.value)">
+    <option *ngFor="let halte of haltes" value="{{halte.haltenummer}}">{{halte.omschrijving}}</option>    
+</select>
+<app-departures *ngIf="halteChosen"></app-departures>

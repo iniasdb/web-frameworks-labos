@@ -1,0 +1,30 @@
+<h1>10 Questions...</h1>
+
+<div>
+    <div style="padding: 2px">
+
+        <ng-container *ngFor="let question of questions, let i = index">
+            <!-- Meekeuzevraag -->
+            <div [class]="recentAnswerCorrect[i]">
+                <ng-container *ngIf="!answered[i]">
+                    <label>{{question.question}}</label>  <!-- De vraag -->
+                    <div *ngIf="question.type == 'multiple'">
+                        <select #sel1 (change)="answer(i, sel1.value)">    <!-- Mogelijke antwoorden -->
+                            <option *ngFor="let option of question.options">{{option}}</option>
+                        </select>
+                    </div>
+                    <div *ngIf="question.type == 'boolean'">  <!-- Antwoord knoppen -->
+                        <button (click)="answer(i, 'True')">True</button>
+                        <button (click)="answer(i, 'False')">False</button>
+                    </div>
+                </ng-container>
+                <div *ngIf="answered[i]">    <!-- Feedback omtrent het gekozen antwoord -->
+                    You answered '{{myRecentAnswer}}' and the answer was '{{question.correct_answer}}'
+                </div>
+                <br/>
+            </div>
+        </ng-container>
+    </div>
+
+    <button *ngIf="completed"  [routerLink]="['/highscore']" >Finish Quiz</button>
+</div>

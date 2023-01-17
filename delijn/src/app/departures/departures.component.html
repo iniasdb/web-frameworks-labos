@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Lijn</th>
+            <th>Bestemming</th>
+            <th>Vertrek</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngIf="doorkomsten.halteDoorkomsten.length <= 0">
+            <td colspan="3">Geen doorkomsten</td>
+        </tr>
+        <ng-container *ngIf="doorkomsten.halteDoorkomsten.length > 0">
+            <tr *ngFor="let doorkomst of doorkomsten.halteDoorkomsten[0].doorkomsten; let i = index">
+                <td>{{doorkomst.lijnnummer}}</td>
+                <td>{{doorkomst.bestemming}}</td>
+                <td>{{tijden[i]}}'</td>
+            </tr>
+        </ng-container>
+
+    </tbody>
+</table>

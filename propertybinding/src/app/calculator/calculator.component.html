@@ -1,0 +1,7 @@
+<input type="text" [value]="display">
+
+<div class="buttons">
+    <ng-container *ngFor="let button of buttons">
+        <button (click)="pressed(button)">{{button}}</button>
+    </ng-container>
+</div>

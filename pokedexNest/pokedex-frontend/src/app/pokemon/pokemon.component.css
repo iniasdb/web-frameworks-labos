@@ -1,0 +1,13 @@
+.star {
+    font-size: 3.5rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.star:hover {
+    color: goldenrod;
+}
+
+.colored {
+    color: goldenrod;
+}
